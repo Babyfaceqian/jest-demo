@@ -14,4 +14,4 @@ before_install:
 after_success:
 #- chmod 600 ~/.ssh/id_rsa   #还是Linux文件权限问题
 #- ssh travis@39.108.158.235 -o StrictHostKeyChecking=no 'cd ~/web/jest-demo && git pull && npm install'   #使用ssh连接服务器
-- cd ~/web/jest-demo && git pull && npm install
+- cd /home/travis/web/jest-demo && git pull && npm install
