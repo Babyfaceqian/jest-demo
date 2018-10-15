@@ -4,7 +4,7 @@ node_js:
 install:
 - npm install
 script:
-#- npm run build
+- npm run build
 addons:
   ssh_known_hosts:
   - 39.108.158.235 #受信主机，你的Linux服务器ip
